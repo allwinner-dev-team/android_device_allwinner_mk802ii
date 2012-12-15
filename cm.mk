@@ -1,21 +1,21 @@
 # Release name
-PRODUCT_RELEASE_NAME := ZaTab
+PRODUCT_RELEASE_NAME := mk802ii
 
 # Boot animation
-TARGET_BOOTANIMATION_NAME := horizontal-1024x768
+TARGET_BOOTANIMATION_NAME := horizontal-1280x720
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/allwinner/zatab/full_zatab.mk)
+$(call inherit-product, device/allwinner/mk802ii/full_zatab.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := zatab
-PRODUCT_NAME := cm_zatab
-PRODUCT_BRAND := ZaReason
-PRODUCT_MODEL := ZaTab
+PRODUCT_DEVICE := mk802ii
+PRODUCT_NAME := cm_mk802ii
+PRODUCT_BRAND := Rikomagic
+PRODUCT_MODEL := mk802ii
 PRODUCT_MANUFACTURER := Allwinner
 
 #Set build fingerprint / ID / Product Name etc
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=zatab BUILD_FINGERPRINT="zareason/zatab/zatab:4.0.4/IMM76I/330937:user/release-keys" PRIVATE_BUILD_DESC="zatab-user 4.0.4 IMM76I 330937 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mk802ii BUILD_FINGERPRINT="rikomagic/mk802ii/mk802ii:4.0.4/IMM76I/330937:user/release-keys" PRIVATE_BUILD_DESC="mk802ii-user 4.0.4 IMM76I 330937 release-keys"
