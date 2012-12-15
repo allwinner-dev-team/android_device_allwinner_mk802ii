@@ -8,7 +8,7 @@ TARGET_BOOTANIMATION_NAME := horizontal-1280x720
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/allwinner/mk802ii/full_zatab.mk)
+$(call inherit-product, device/allwinner/mk802ii/full_mk802ii.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mk802ii
