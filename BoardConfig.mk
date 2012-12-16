@@ -18,4 +18,4 @@
 # Use the part that is common between all allwinner
 include device/allwinner/common/BoardConfig.mk
 
-TARGET_KERNEL_CONFIG := sun4i_defconfig
+TARGET_KERNEL_CONFIG := mk802ii_defconfig
