@@ -19,3 +19,4 @@
 include device/allwinner/common/BoardConfig.mk
 
 TARGET_KERNEL_CONFIG := sun4i_defconfig
+BOARD_USES_UBOOT := true
