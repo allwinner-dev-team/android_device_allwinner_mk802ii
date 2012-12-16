@@ -23,6 +23,12 @@ $(call inherit-product-if-exists, vendor/allwinner/mk802ii/mk802ii-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/allwinner/mk802ii/overlay
 
+# These are the hardware-specific features
+PRODUCT_COPY_FILES += \
+	frameworks/native/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
+	frameworks/native/data/etc/android.hardware.camera.autofocus.xml:system/etc/permissions/android.hardware.camera.autofocus.xml \
+#
+
 PRODUCT_COPY_FILES += \
 	device/allwinner/mk802ii/config/camera.cfg:system/etc/camera.cfg \
 	device/allwinner/mk802ii/config/media_profiles.xml:system/etc/media_profiles.xml \
