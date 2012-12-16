@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo full_zatab-userdebug
+add_lunch_combo full_mk802ii-userdebug

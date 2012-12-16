@@ -1,7 +1,7 @@
 #!/bin/sh
 
 VENDOR=allwinner
-DEVICE=zatab
+DEVICE=mk802ii
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
 
@@ -27,10 +27,10 @@ PRODUCT_COPY_FILES := \\
     $OUTDIR/proprietary/lib/libMali.so:obj/lib/libMali.so \\
     $OUTDIR/proprietary/lib/libUMP.so:obj/lib/libUMP.so \\
 
-\$(shell mkdir -p out/target/product/zatab/obj/SHARED_LIBRARIES/libMali_intermediates)
-\$(shell mkdir -p out/target/product/zatab/obj/SHARED_LIBRARIES/libUMP_intermediates)
-\$(shell touch out/target/product/zatab/obj/SHARED_LIBRARIES/libMali_intermediates/export_includes)
-\$(shell touch out/target/product/zatab/obj/SHARED_LIBRARIES/libUMP_intermediates/export_includes)
+\$(shell mkdir -p out/target/product/mk802ii/obj/SHARED_LIBRARIES/libMali_intermediates)
+\$(shell mkdir -p out/target/product/mk802ii/obj/SHARED_LIBRARIES/libUMP_intermediates)
+\$(shell touch out/target/product/mk802ii/obj/SHARED_LIBRARIES/libMali_intermediates/export_includes)
+\$(shell touch out/target/product/mk802ii/obj/SHARED_LIBRARIES/libUMP_intermediates/export_includes)
 
 PRODUCT_COPY_FILES += \\
 EOF

@@ -1,7 +1,7 @@
 #!/bin/sh
 
 VENDOR=allwinner
-DEVICE=zatab
+DEVICE=mk802ii
 
 BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
 rm -rf $BASE/*
