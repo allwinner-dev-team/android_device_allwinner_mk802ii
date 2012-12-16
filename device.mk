@@ -24,6 +24,7 @@ $(call inherit-product-if-exists, vendor/allwinner/mk802ii/mk802ii-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += device/allwinner/mk802ii/overlay
 
 PRODUCT_COPY_FILES += \
-	device/allwinner/zatab/config/media_profiles.xml:system/etc/media_profiles.xml \
-	device/allwinner/zatab/config/axp20-supplyer.kl:system/usr/keylayout/axp20-supplyer.kl \
+	device/allwinner/mk802ii/config/camera.cfg:system/etc/camera.cfg \
+	device/allwinner/mk802ii/config/media_profiles.xml:system/etc/media_profiles.xml \
+	device/allwinner/mk802ii/config/axp20-supplyer.kl:system/usr/keylayout/axp20-supplyer.kl \
 #
