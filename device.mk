@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# This file includes all definitions that apply only to zatab devices
+# This file includes all definitions that apply only to mk802ii devices
 #
 # Anything that is generic to all allwinner products should go in the common directory
 #
@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
 #
 
 PRODUCT_COPY_FILES += \
+	device/allwinner/mk802ii/init.sun4i.modules.rc:root/init.sun4i.modules.rc \
 	device/allwinner/mk802ii/config/camera.cfg:system/etc/camera.cfg \
 	device/allwinner/mk802ii/config/media_profiles.xml:system/etc/media_profiles.xml \
 	device/allwinner/mk802ii/config/axp20-supplyer.kl:system/usr/keylayout/axp20-supplyer.kl \
