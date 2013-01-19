@@ -20,4 +20,6 @@ include device/allwinner/common/BoardConfig.mk
 
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/allwinner/mk802ii/recovery_keys.c
 
+SW_BOARD_AUDIO_DEFAULT_HDMI := true
+
 TARGET_KERNEL_CONFIG := mk802ii_crane_defconfig
