@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
 #
 
 PRODUCT_COPY_FILES += \
+	device/allwinner/mk802ii/vold.fstab:system/etc/vold.fstab \
 	device/allwinner/mk802ii/init.sun4i.modules.rc:root/init.sun4i.modules.rc \
 	device/allwinner/mk802ii/config/camera.cfg:system/etc/camera.cfg \
 	device/allwinner/mk802ii/config/media_profiles.xml:system/etc/media_profiles.xml \
